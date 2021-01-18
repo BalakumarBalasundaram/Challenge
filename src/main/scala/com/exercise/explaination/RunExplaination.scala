@@ -4,7 +4,6 @@ import org.apache.log4j.Logger
 
 object RunExplaination {
 
-  val log = Logger.getLogger(this.getClass)
 
   def main(args: Array[String]): Unit = {
 
@@ -19,6 +18,5 @@ object RunExplaination {
     println("----------------------------------------------------------------------------------")
     println("reduced directions : " + result.toList)
 
-    log.info("reduced directions : " + result.toList)
   }
 }
