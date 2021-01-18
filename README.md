@@ -27,7 +27,7 @@ You have to write a function dirReduc in Python or Scala which will take an arra
 The task will not only be assessed on correct functionality but also how optimal the code is from a performance perspective.
 
 # 3 - Specification
-TeliaChallenge.dirReduc(arr)
+Challenge.dirReduc(arr)
 Parameters
 arr: Array<String> - An array with each index containing 1 of the 4 cardinal directions, all in uppercase
 Return Value
