@@ -1,4 +1,4 @@
-package com.exercise.telia.assignment
+package com.exercise.assignment
 
 import scala.annotation.tailrec
 
