@@ -8,16 +8,16 @@
 * Scala 2.11.6
 * sbt 1.2.8 -Scala Build Tool (SBT) http://www.scala-sbt.org/download.html
 
-# To compile the Scala source code with SBT, run:
-# compile
+### To compile the Scala source code with SBT, run:
+##### compile
 
-# To continuously compile, run:
-# ~compile
+### To continuously compile, run:
+##### ~compile
 
-# To run all tests from the SBT console:
-# test
+### To run all tests from the SBT console:
+##### test
 
-## Run the command
+### Run the command
 sbt clean compile -> sbt test
 
 # Coding Challenge - Direction Reduction Details
