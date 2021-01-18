@@ -20,7 +20,15 @@
 ### Run the command
 sbt clean compile -> sbt test
 
-# Coding Challenge - Direction Reduction Details
+
+## Directory Structure
+
+#######  README.md
+#######  build.sbt          : (scala) sbt file build spark scala dependency 
+#######  project            : (scala) other sbt setting : plugins.sbt, build.properties...
+#######  src                : (scala) MAIN SCALA SPARK TESTS/SCRIPTS 
+
+## Coding Challenge - Direction Reduction Details
 
 #1 - Background
 We are given directions to go from one point to another. The directions are "NORTH", "SOUTH", "WEST", "EAST". Clearly "NORTH" and "SOUTH" are opposite, "WEST" and "EAST" too. Going one direction and coming back the opposite direction is a wasted effort, so let's concise these directions to go the shortest route.
