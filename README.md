@@ -4,34 +4,18 @@
 * DateTime: 13 Jan 2021 22:43:00 
 
 ## Required
-* JDK 1.8
+* JDK 1.8 -Java SE 8 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 * Scala 2.11.6
-* sbt 1.2.8
+* sbt 1.2.8 -Scala Build Tool (SBT) http://www.scala-sbt.org/download.html
 
-Software Requirements
-You will need to install:
-Java SE 8 http://www.oracle.com/technetwork/java/javase/downloads/index.html
-Scala Build Tool (SBT) http://www.scala-sbt.org/download.html
+# To compile the Scala source code with SBT, run:
+# compile
 
-Scala Build Tool (SBT)
-The Scala Build Tool (SBT http://www.scala-sbt.org/) is used to compile and test the Scala assignments. Files must NOT be renamed or refactored, and the test code and build instruction files must NOT be altered. Specifically, you should only edit files under src/main/.
+# To continuously compile, run:
+# ~compile
 
-SBT will take care of downloading the correct version of Scala for you. You will need to be connected to the Internet when you do this.
-
-Launch SBT
-From a shell window (Linux or OS X) or CMD/Powershell prompt (Windows), launch SBT using the command you set up during SBT installation. This is usually just sbt. For example:
-Compiling with SBT
-To compile the Scala source code with SBT, run:
-#compile
-
-To continuously compile, run:
-#~compile
-
-Testing with SBT
-When you ask SBT to run any tests, it will automatically compile your source code and the test code first (if it does not appear to do so, ensure that you have saved your source code file in your text editor!).
-
-To run all tests from the SBT console:
-test
+# To run all tests from the SBT console:
+# test
 
 ## Run the command
 sbt clean compile -> sbt test
