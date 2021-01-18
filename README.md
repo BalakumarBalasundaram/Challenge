@@ -14,7 +14,7 @@
 ### To continuously compile, run:
 ##### ~compile
 
-### To run all tests from the SBT console:
+### To run all tests from the SBT console,run:
 ##### test
 
 ### Run the command
