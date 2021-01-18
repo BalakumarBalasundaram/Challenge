@@ -9,10 +9,10 @@
 
 ## Directory Structure
 
-   README.md
-   build.sbt          : (scala) sbt file build spark scala dependency 
-   project            : (scala) other sbt setting : plugins.sbt, build.properties...
-   src                : (scala) MAIN SCALA SPARK TESTS/SCRIPTS 
+   # README.md
+   # build.sbt          : (scala) sbt file build spark scala dependency 
+   # project            : (scala) other sbt setting : plugins.sbt, build.properties...
+   # src                : (scala) MAIN SCALA SPARK TESTS/SCRIPTS 
 
 ## Run the command
 sbt clean compile -> sbt test
