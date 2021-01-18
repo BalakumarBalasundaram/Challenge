@@ -5,7 +5,17 @@
 
 ## Required
 * Scala 2.11.6
+* sbt 1.2.8
 
+## Directory Structure
+
+# ├── README.md
+# ├── build.sbt          : (scala) sbt file build spark scala dependency 
+# ├── project            : (scala) other sbt setting : plugins.sbt, build.properties...
+# ├── src                : (scala) MAIN SCALA SPARK TESTS/SCRIPTS 
+
+## Run the command
+sbt clean compile -> sbt test
 
 # Coding Challenge - Direction Reduction Details
 
