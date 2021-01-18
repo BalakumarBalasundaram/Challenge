@@ -22,9 +22,10 @@ Launch SBT
 From a shell window (Linux or OS X) or CMD/Powershell prompt (Windows), launch SBT using the command you set up during SBT installation. This is usually just sbt. For example:
 Compiling with SBT
 To compile the Scala source code with SBT, run:
+#compile
 
-compile
 To continuously compile, run:
+#~compile
 
 Testing with SBT
 When you ask SBT to run any tests, it will automatically compile your source code and the test code first (if it does not appear to do so, ensure that you have saved your source code file in your text editor!).
